@@ -1,128 +1,179 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="eng">
 <head>
-    <h1>Акылбекова Айтурган</h1>
-    <h4>Коротко обо мне</h4>
+    <p><em>ALA-TOO COLLEGE ~ WEB PROGRAMMING</em></p>
+    <h1>Akylbekova AItugan's Creative Portfolio</h1>
+    <h4><em>Student. Future learner. Leadership</em></h4>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-<a href="#main">Перейти к основному содержимому</a>
+<a href="#main">Skip to main content</a>
 <header id="top">
-    <nav aria-label="Главное меню">
-      <ul>
-        <li><a href="#interest">Интересы</a></li>
-        <li><a href="#experience">Опыт</a></li>
-        <li><a href="#honors">Награды</a></li>
-        <li><a href="#media">Социальные сети</a></li>
-        <li><a href="#artworks">Художественные работы</a></li>
-        <li><a href="#study">Учеба</a></li>
-        <li><a href="#science">Наука</a></li>
-      </ul>
+    <nav class="Main menu">
+        <a href="#photo">About Me</a> •
+        <a href="#education">Skills</a> •
+        <a href="#leadership">My Work</a> •
+        <a href="#media">Contact Me</a>
     </nav>
+<hr>
+
+<figure>
+  <img src="hero.svg" width="100%">
+</figure>
+
   </header>
+
+  <br>
+  <hr>
+  <br>
+
 <main id="main"></main>
-<section id="interest">
-    <h2>Интересы</h2>
-    <figure>
-        <img src="interest.jpg" 
-        alt="Что мне интереснее всего изучать?"
-        width="480" height="280">
-    </figure>
-    <h4>Таблица моих нишивых интересов</h4>
-     <table>
+<section id="photo">
+  <h2>01- About Me</h2>
+  <p>Hello I'm <strong>Aiturgan</strong>, a student of Ala-Too College in Bishkek.</p>
+
+    
+</iframe>
+
+<h3><strong>Привет, меня зовут Акылбекова Айтурган! И я хочу рассказать немного о себе</strong></h3>
+
+</section>
+
+<br>
+<hr>
+<br>
+
+<section id="education">
+     <h2>02- Skill & Learning</h2>
+     <ul>
+        <li>Semantic HTML: header, bode and main</li>
+        <li>Links, lists and images</li>
+        <li>Audio and video</li>
+    </ul>
+
+          <p>
+        HTML:
+        <progress value="3" max="5" style="accent-color: rgb(168, 136, 250)"></progress>
+        3/5
+    </p>
+
+    <p>
+        Portfolio sections completed:
+        <progress value="70" max="100" style="accent-color: rgb(218, 255, 7)"></progress>
+        70/100
+    </p>
+    <p> Today is written result: complete 3 section</p>
+  
+    <table>
+        <caption><strong>My weekly learning plan</strong></caption>
         <thead>
           <tr>
-            <th cope="col">Интерес</th>
-            <th cope="col">Описание</th>
-            <th cope="col">Что нравится</th>
-            <th cope="col">Уделенное время</th>
+            <th scope="col">Day</th>
+            <th scope="col">Topic</th>
+            <th scope="col">Goal</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th cope="row"> Рисование </th>
-            <td> Рисую неплохо пейзажи и портреты </td>
-            <td> Рисовать портреты </td>
-            <td> 2 часа в неделю </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <th cope="row"> Чтение </th>
-            <td> Люблю читать художественную литературу </td>
-            <td> Современные романы </td>
-            <td> 1 час в день </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <th cope="row"> Просмотры фильмов </th>
-            <td> Marvel, HP, Дивиргенты, БВЛ  </td>
-            <td> Научная- фантастика </td>
-            <td> 3 часа в неделю </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <th cope="row"> Астрономия </th>
-            <td> Люблю изучать звезды и планеты </td>
-            <td> Астрономические наблюдения </td>
-            <td> 2 часа в неделю </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <th cope="row"> Математика </th>
-            <td> Люблю решать задачи и доказывать теоремы </td>
-            <td> Алгебра и геометрия (олимпиадные задания) </td>
-            <td> 6 часов в неделю </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <th cope="row"> Исследование </th>
-            <td> Люблю исследовать различные области знаний </td>
-            <td> Исследования в сфере астрофизики </td>
-            <td> 5 часов в неделю </td>
-          </tr>
-        </tbody>
-        <tfoot>
-          <tr>
-            <th cope="row" colspan="6">Всего интересов</th>
-            <td>6</td>
-          </tr>
-        </tfoot>
-      </table>
+            <th scope="row">Monday</th>
+            <td>HTML structure</td>
+            <td>Organize my page</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Wednesday</th>
+            <td>Media and forms</td>
+            <td>Add a contact form</td>
+        </tr>
+
+        <tr>
+             <th scope="row">Friday</th>
+            <td>Practice</td>
+            <td>Check and improve my work</td>
+        </tr>
+    </table>
+      
 </section>
-<section id="experience">
-    <h2>Опыт</h2>
-    <p>Здесь будет информация об опыте.</p>
-    <h4>Волонтерства</h4>
-    <figure>
-        <img src="WhatsApp Image 2026-04-13 at 20.20.22 (2).jpeg" 
-        alt="мой опыт"
-        width="480" height="280">
-    </figure>
-    <figure>
-        <img src="WhatsApp Image 2026-04-13 at 20.20.22 (1).jpeg" 
-        alt="мой опыт"
-        width="480" height="280">
-    </figure>
-    <h4>Описание опыта</h4>
-    <h5>С 8 по 9 класс я являлась лидером художественной организации Cancer Kids First</h5>
-<ul>
-    <li><p>Провели более 5 мероприятий (волейболные турниры, арт терапия)</p></li>
-    <li><p>Была лидером 20 человек в художественном департаменте</p></li>
-    <li><p>Нарисовали более 50 картин для поддержки онкологобольных детей</p></li>
-</ul>
+
+<br>
+<hr>
+<br>
+
+<section id="leadership">
+    <h2>03 - My Work</h2>
+    <h3>My firs portfolio</h3>
+    <p> Startet on september my personal project</p>
+<figure>
+  <img src="project.svg" width="100%">
+  <figcaption>A simple picters</figcaption>
+</figure>
+<p> I built this page to pracrtice</p>
+<ol>
+        <li>Create the header,main content and footer</li>
+        <li>Add About,Skills,Work and Contact sections</li>
+        <li>Test links,media files and form labels</li>
+    </ol>
+    <p>
+        <a href="#Ask">Ask me about this progect</a>
+    </p>
+<h3>Media Practice</h3>
+<p> A short simple sound</p>
+<audio controls>
+<source src="intro (1).wav" type="audio/mpeg">
+Ваш браузер не поддерживает аудио.
+    </audio>
+<h3>Movie  Practice</h3>
+<p>A short film</p>
+<video width="400" controls>
+        <source src="video-poster.png" type="video/mp4">
+    </video>
 </section>
-<section id="honors">
-    <h2>Достижения и награды</h2>
+
+<br>
+<hr> 
+<br>
+
+
+<section id = "media">
+  <h2>04-Connect</h2>
+<form>
+        <fieldset>
+          <legend>Connect</legend>
+          <p>
+            <label for="student-name">Name:</label><br>
+            <input type="text" id="student-name" name="student_name" placeholder="Name" required minlength="2" maxlength="80">
+          </p>
+          <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="email" required>
+          </p>
+          <p>
+            <label for="message">Ssm</label><br>
+            <textarea id="message" name="message" rows="4" cols="40" placeholder="massege"></textarea>
+          </p>
+        </fieldset>
+        <p>
+          <button type="submit" disabled>Send</button>
+          <button type="reset">No</button>
+        </p>
+</form>
 </section>
+
+<br>
+<hr> 
+<br>
 
 
     
+
+
 </body>
+<hr>
+<footer>
+<p><a href="#top">UP ↑</a></p>
+
+</footer>
 </html>
